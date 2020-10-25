@@ -84,7 +84,7 @@ firebase.auth().onAuthStateChanged((user)=> {
     startRsvpButton.textContent = "LOGOUT"
   }
   else {
-    startRsvpButton.textContent = "RSVP"
+    startRsvpButton.textContent = "send wishes"
   }
 });
 
