@@ -56,6 +56,7 @@ section {
 }
 
 body {
+  scroll-behavior: smooth;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   background-color: #271959;
@@ -139,4 +140,15 @@ button:hover{
   cursor: pointer;
   background-color:  rgb(19, 21, 122);
   color:  rgb(255, 255, 255);
+}
+
+.stylefont p{
+  font-family: 'Indie Flower', cursive;
+}
+span {
+  font-family: 'Indie Flower', cursive;
+}
+
+nav.stylefont {
+  font-family: 'Indie Flower', cursive;
 }

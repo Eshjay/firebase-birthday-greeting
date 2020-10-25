@@ -3,7 +3,8 @@
   <title>Happy Birthday Olushola</title>
   <!--  -->
   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Indie+Flower|Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,15 +17,15 @@
   <!-- <img src="https://firebasestorage.googleapis.com/v0/b/fir-images-a61c9.appspot.com/o/hosting.png?alt=media&token=57c8adb6-08c4-43f7-9395-4c299896a36c" /> -->
   <img src="https://res.cloudinary.com/dlqceb87c/image/upload/v1603583019/birthdayPicture2019/birthdayCoverWhite_vp49v5.png" />
   
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">HappyDay</a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light stylefont">
+  <a class="navbar-brand" href="#">HappyBirthdayDay Olushola</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Send Wishes<span class="sr-only"></span></a>
-      <a class="nav-item nav-link" href="#">Gallery </a>
+      <a class="nav-item nav-link" href="#wishes">Send Wishes</a>
+      <a class="nav-item nav-link" href="#gallery">Gallery </a>
     </div>
   </div>
 </nav>
@@ -42,7 +43,7 @@ every moment of the year, for every journey and for everyone that are part of
 the journey so far, Thank you so much, Let do it again once more.</span>
 </article>
   <hr>
-<section id="event-details-container">
+<section id="event-details-container wishes">
     <!-- ... -->
     <!-- ADD THE RSVP BUTTON HERE -->
     <button id="startRsvp">Send your wishes</button>
@@ -60,7 +61,7 @@ the journey so far, Thank you so much, Let do it again once more.</span>
        SEND
      </button>
    </form>
-  <p id="guestbook"></p>
+  <p id="guestbook" class="stylefont"></p>
  </section>
 <hr>
   <section id="firebaseui-auth-container"></section>
@@ -69,7 +70,7 @@ the journey so far, Thank you so much, Let do it again once more.</span>
     <!-- Meet the Team Section -->
     <div class="row bg-white border-2">
       <div class="col" id='team'>
-        <h2 class='text-info text-center mt-3 mb-3 font-weight-light'>2019/2020 in pictures</h2>
+        <h2 id="gallery" class='text-info text-center mt-3 mb-3 font-weight-light'>2019/2020 in pictures</h2>
       </div>
     </div>
 
